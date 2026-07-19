@@ -38,7 +38,7 @@ Com [Node.js](https://nodejs.org) instalado:
 
 ```bash
 npm install -g @vscode/vsce
-cd swatch-theme
+cd cyberpunk-theme
 vsce package
 ```
 
