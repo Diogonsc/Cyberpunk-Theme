@@ -1,0 +1,33 @@
+{
+  "name": "cyberpunk-theme",
+  "displayName": "Cyberpunk Theme",
+  "description": "Um tema escuro cyberpunk para VS Code e Cursor, com cores vibrantes e alto contraste.",
+  "version": "0.1.0",
+  "publisher": "seu-publisher-aqui",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "cyberpunk",
+    "neon",
+    "vscode",
+    "cursor"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyberpunk Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/swatch-dark-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
