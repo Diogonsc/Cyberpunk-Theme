@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/icon.png" alt="Logo do Cyberpunk Theme" width="320">
+</p>
+
 # Cyberpunk Theme
 
 Tema escuro cyberpunk para VS Code e Cursor, construído com uma paleta vibrante
