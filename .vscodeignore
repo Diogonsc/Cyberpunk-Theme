@@ -1,0 +1,8 @@
+.git/**
+.github/**
+.cursor/**
+.vscode/**
+node_modules/**
+*.vsix
+.gitignore
+*.log

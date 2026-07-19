@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./images/icon.png" alt="Logo do Cyberpunk Theme" width="320">
+  <img src="./images/icon.png" alt="Logo do NSC Cyberpunk Theme" width="320">
 </p>
 
-# Cyberpunk Theme
+# NSC Cyberpunk Theme
 
 Tema escuro cyberpunk para VS Code e Cursor, construído com uma paleta vibrante
 de cores do Tailwind CSS.
@@ -38,32 +38,32 @@ Com [Node.js](https://nodejs.org) instalado:
 
 ```bash
 npm install -g @vscode/vsce
-cd cyberpunk-theme
+cd Cyberpunk-Theme
 vsce package
 ```
 
-Isso gera um `cyberpunk-theme-0.1.0.vsix`. Para instalar:
+Isso gera um `nsc-cyberpunk-theme-0.1.0.vsix`. Para instalar:
 
 - **VSCode / Cursor:** `Ctrl+Shift+P` → **"Extensions: Install from VSIX..."** → selecione o `.vsix`
   (ou arraste o arquivo pra dentro da janela do editor).
 
-Depois, ative em `Ctrl+Shift+P` → **"Preferences: Color Theme"** → **"Cyberpunk Theme"**.
+Depois, ative em `Ctrl+Shift+P` → **"Preferences: Color Theme"** → **"NSC Cyberpunk Theme"**.
 
 ## Publicar
 
-Antes de publicar, substitua o `publisher` no `package.json` pelo identificador
-criado no Visual Studio Marketplace e adicione a URL correta do repositório.
+O identificador da extensão é `diogonsc.nsc-cyberpunk-theme`. Antes de publicar,
+gere novamente o pacote para que o novo nome seja incluído no arquivo `.vsix`.
 
 ### VS Code Marketplace
 
 ```bash
-vsce login <seu-publisher>
-vsce publish
+npx @vscode/vsce login diogonsc
+npx @vscode/vsce publish
 ```
 
 ### Open VSX (Cursor)
 
 ```bash
-npm install -g ovsx
-ovsx publish -p <seu-token-open-vsx>
+npx ovsx create-namespace diogonsc -p <seu-token-open-vsx>
+npx ovsx publish -p <seu-token-open-vsx>
 ```

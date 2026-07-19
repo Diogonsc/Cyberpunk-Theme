@@ -1,9 +1,18 @@
 {
-  "name": "cyberpunk-theme",
-  "displayName": "Cyberpunk Theme",
+  "name": "nsc-cyberpunk-theme",
+  "displayName": "NSC Cyberpunk Theme",
   "description": "Um tema escuro cyberpunk para VS Code e Cursor, com cores vibrantes e alto contraste.",
   "version": "0.1.0",
-  "publisher": "seu-publisher-aqui",
+ 
+  "publisher": "diogonsc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diogonsc/Cyberpunk-Theme.git"
+  },
+  "homepage": "https://github.com/Diogonsc/Cyberpunk-Theme#readme",
+  "bugs": {
+    "url": "https://github.com/Diogonsc/Cyberpunk-Theme/issues"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -23,7 +32,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cyberpunk Theme",
+        "label": "NSC Cyberpunk Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/swatch-dark-color-theme.json"
       }

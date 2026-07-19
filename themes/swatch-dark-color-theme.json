@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Cyberpunk Theme",
+  "name": "NSC Cyberpunk Theme",
   "type": "dark",
   "colors": {
     "foreground": "#d4d4d8",
